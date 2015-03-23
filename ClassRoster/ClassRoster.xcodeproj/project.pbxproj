@@ -14,10 +14,8 @@
 		3E74AF541A945133000D0330 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E74AF521A945133000D0330 /* LaunchScreen.xib */; };
 		3E74AF601A945133000D0330 /* ClassRosterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E74AF5F1A945133000D0330 /* ClassRosterTests.swift */; };
 		3E74AF6A1A96CE53000D0330 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E74AF691A96CE53000D0330 /* Person.swift */; };
+		3E74AF6C1A96E617000D0330 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E74AF6B1A96E617000D0330 /* Controller.swift */; };
 		3E74AFA61AA3D68D000D0330 /* PersonDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E74AFA51AA3D68D000D0330 /* PersonDetailViewController.swift */; };
-		3EB8A7B71AB11A820062E377 /* seahawks.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EB8A7B61AB11A820062E377 /* seahawks.png */; };
-		3EB8A7BB1AB11C040062E377 /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB8A7BA1AB11C040062E377 /* PersonCell.swift */; };
-		3EB8A7BD1AB128890062E377 /* People.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3EB8A7BC1AB128890062E377 /* People.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,10 +40,8 @@
 		3E74AF5E1A945133000D0330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E74AF5F1A945133000D0330 /* ClassRosterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassRosterTests.swift; sourceTree = "<group>"; };
 		3E74AF691A96CE53000D0330 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		3E74AF6B1A96E617000D0330 /* Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
 		3E74AFA51AA3D68D000D0330 /* PersonDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonDetailViewController.swift; sourceTree = "<group>"; };
-		3EB8A7B61AB11A820062E377 /* seahawks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = seahawks.png; path = "../../../Downloads/sea-c31-iOS-master 3/Sample Code/Day5/Day5/seahawks.png"; sourceTree = "<group>"; };
-		3EB8A7BA1AB11C040062E377 /* PersonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PersonCell.swift; path = ../PersonCell.swift; sourceTree = "<group>"; };
-		3EB8A7BC1AB128890062E377 /* People.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = People.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +121,7 @@
 		3E74AF6D1A96E62F000D0330 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				3E74AF6B1A96E617000D0330 /* Controller.swift */,
 				3E74AF6E1A96E646000D0330 /* Model */,
 			);
 			name = Controller;
@@ -134,8 +131,6 @@
 			isa = PBXGroup;
 			children = (
 				3E74AF691A96CE53000D0330 /* Person.swift */,
-				3EB8A7BA1AB11C040062E377 /* PersonCell.swift */,
-				3EB8A7B61AB11A820062E377 /* seahawks.png */,
 				3E74AFA51AA3D68D000D0330 /* PersonDetailViewController.swift */,
 			);
 			name = Model;
@@ -145,7 +140,6 @@
 			isa = PBXGroup;
 			children = (
 				3E74AF4D1A945133000D0330 /* Main.storyboard */,
-				3EB8A7BC1AB128890062E377 /* People.plist */,
 				3E74AF4B1A945133000D0330 /* ViewController.swift */,
 			);
 			name = View;
@@ -231,10 +225,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EB8A7BD1AB128890062E377 /* People.plist in Resources */,
 				3E74AF4F1A945133000D0330 /* Main.storyboard in Resources */,
 				3E74AF541A945133000D0330 /* LaunchScreen.xib in Resources */,
-				3EB8A7B71AB11A820062E377 /* seahawks.png in Resources */,
 				3E74AF511A945133000D0330 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,11 +245,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EB8A7BB1AB11C040062E377 /* PersonCell.swift in Sources */,
 				3E74AF6A1A96CE53000D0330 /* Person.swift in Sources */,
 				3E74AFA61AA3D68D000D0330 /* PersonDetailViewController.swift in Sources */,
 				3E74AF4C1A945133000D0330 /* ViewController.swift in Sources */,
 				3E74AF4A1A945133000D0330 /* AppDelegate.swift in Sources */,
+				3E74AF6C1A96E617000D0330 /* Controller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
